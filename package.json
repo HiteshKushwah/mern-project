@@ -1,7 +1,7 @@
 {
-  "name": "simple-node-app",
+  "name": "express-router-assignment",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,9 +11,10 @@
   "type": "commonjs",
   "description": "",
   "dependencies": {
-    "dotenv": "^16.4.7",
     "ejs": "^3.1.10",
-    "express": "^4.21.2",
-    "mongoose": "^8.9.5"
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
